@@ -1,0 +1,133 @@
+Third Party Notices Document
+Zontroy AI
+A Product of Zontroy INC.
+Version 1.0
+
+Last Updated: March 18, 2025
+
+Introduction
+Zontroy INC. ("Zontroy," "we," "us," or "our") is proud to present Zontroy AI, an innovative coding tool designed to empower developers, streamline workflows, and enhance productivity in software development environments. As part of our commitment to transparency and compliance with open-source licensing obligations, this Third Party Notices Document ("Document") provides detailed information about the third-party open-source software components incorporated into Zontroy AI. These components are vital to the functionality, performance, and user experience of Zontroy AI, and we are grateful to the open-source community for their contributions.
+
+This Document is intended to serve as a comprehensive resource for users, developers, and legal professionals who wish to understand the open-source dependencies utilized in Zontroy AI. It includes the identities of the third-party projects, their respective licenses, copyright notices, and full license texts as required by the terms of those licenses. Specifically, Zontroy AI incorporates four open-source projects, all licensed under the MIT License: OpenSumi IDE Electron, OpenSumi Core, Monkey Lang, vs code. Each of these projects plays a unique role in enabling the robust features of Zontroy AI, and their inclusion reflects our dedication to leveraging high-quality, community-driven software solutions.
+
+By using Zontroy AI, you acknowledge that certain components of the software are subject to the terms and conditions of third-party licenses, as outlined herein. This Document does not alter, amend, or supersede the End User License Agreement (EULA) or Terms of Service governing your use of Zontroy AI; rather, it supplements those agreements by fulfilling our obligations under the applicable open-source licenses.
+
+Purpose of This Document
+The purpose of this Third Party Notices Document is multifaceted:
+
+Compliance: To comply with the terms of the MIT License, which requires that the license and copyright notice accompany any distribution of the software or its derivatives.
+Acknowledgment: To recognize and credit the authors, contributors, and maintainers of the open-source projects that enhance Zontroy AI.
+Transparency: To provide users with a clear understanding of the open-source components embedded within Zontroy AI, fostering trust and encouraging engagement with the broader open-source ecosystem.
+Education: To inform users about their rights and obligations with respect to the open-source software included in Zontroy AI, should they choose to interact with it independently.
+This Document is not an exhaustive list of all software used in the development of Zontroy AI (e.g., proprietary code or internal tools), but rather a focused disclosure of the open-source components subject to public licensing requirements. We have endeavored to make this Document as thorough and detailed as possible, reflecting both the spirit and the letter of the open-source licenses involved.
+
+Overview of Open-Source Software in Zontroy AI
+Zontroy AI integrates four open-source projects to deliver its cutting-edge coding capabilities. These projects are:
+
+OpenSumi IDE Electron (available at https://github.com/opensumi/ide-electron)
+OpenSumi Core (available at https://github.com/opensumi/core)
+Monkey Lang (available at https://github.com/michalholasek/monkey-lang)
+vscode (available at https://github.com/microsoft/vscode)
+All four projects are licensed under the MIT License, a permissive open-source license that allows for broad use, modification, and distribution, provided that the original copyright notice and license text are included with any copies or substantial portions of the software. Below, we provide detailed information about each project, including its purpose within Zontroy AI, its licensing details, and the full text of the MIT License as it applies to each component.
+
+Third-Party Software Components
+1. OpenSumi IDE Electron
+Source: https://github.com/opensumi/ide-electron
+
+License: MIT License
+
+Copyright: Copyright (c) OpenSumi Contributors
+
+Description: OpenSumi IDE Electron is an open-source framework for building desktop-based integrated development environments (IDEs) using Electron, a popular platform for creating cross-platform desktop applications with web technologies. Zontroy AI leverages OpenSumi IDE Electron to provide a robust, customizable, and user-friendly desktop interface for its coding tool. This component enables features such as a graphical user interface (GUI), file management, and seamless integration with other development tools.
+
+Use in Zontroy AI: OpenSumi IDE Electron serves as the foundational desktop runtime environment for Zontroy AI, allowing users to interact with the tool through a native application experience rather than a purely web-based interface. Its modularity and extensibility make it an ideal choice for delivering a polished and responsive coding environment.
+
+License Text: See the "MIT License" section below for the full text.
+
+2. OpenSumi Core
+Source: https://github.com/opensumi/core
+
+License: MIT License
+
+Copyright: Copyright (c) OpenSumi Contributors
+
+Description: OpenSumi Core is the core library of the OpenSumi project, providing the essential building blocks for constructing modern IDEs. It includes functionalities such as code editing, syntax highlighting, project management, and plugin support. Zontroy AI utilizes OpenSumi Core to power its advanced code editing and development features, ensuring a high-performance and feature-rich experience for users.
+
+Use in Zontroy AI: OpenSumi Core is integrated into Zontroy AI to handle the backend logic of the coding environment, including text editing, autocompletion, and workspace management. Its lightweight yet powerful architecture enhances the efficiency of Zontroy AI, making it suitable for both novice and expert developers.
+
+License Text: See the "MIT License" section below for the full text.
+
+3. Monkey Lang
+Source: https://github.com/michalholasek/monkey-lang
+
+License: MIT License
+
+Copyright: Copyright (c) Michal Holasek
+
+Description: Monkey Lang is an open-source programming language and interpreter designed for educational purposes and experimentation. It provides a simple yet expressive syntax and a lightweight runtime, making it an excellent tool for prototyping and learning. Zontroy AI incorporates Monkey Lang to offer users a sandbox environment for testing algorithms, exploring language design, and experimenting with code execution.
+
+Use in Zontroy AI: Monkey Lang is embedded within Zontroy AI as an optional scripting engine, allowing users to write and execute Monkey Lang code directly within the tool. This feature enhances Zontroy AI’s versatility, enabling it to serve as both a practical coding platform and an educational resource.
+
+License Text: See the "MIT License" section below for the full text.
+
+4. Visual Studio Code
+Source: https://github.com/microsoft/vscode
+
+License: MIT License
+
+Copyright: Copyright (c) 2015 - present Microsoft Corporation
+
+Description: Visual Studio Code (VS Code) is an open-source source-code editor developed by Microsoft, supporting debugging, embedded Git control, and an extensible architecture for customization and extension development. Zontroy AI integrates [specify how it’s used, e.g., “VS Code’s core editor functionality” or “VS Code extension APIs”] to enhance its development environment and user interface capabilities.
+
+Use in Zontroy AI:Zontroy AI leverages Visual Studio Code’s open-source framework to provide an integrated development environment (IDE) for its users, enabling seamless code editing, debugging, and extension support within the Zontroy AI platform. Specifically, Zontroy AI utilizes VS Code’s extensible architecture to embed its AI-driven code generation and analysis tools directly into the editor, allowing developers to interact with Zontroy AI’s features—such as real-time code suggestions, automated refactoring, and natural language-to-code conversion—within a familiar and highly customizable interface. This integration enhances the productivity of Zontroy AI users by combining VS Code’s robust editing capabilities with Zontroy AI’s advanced artificial intelligence functionalities.
+
+License Text: See the "MIT License" section below for the full tex
+
+The following is the full text of the MIT License, which applies to OpenSumi IDE Electron, OpenSumi Core, Monkey Lang, and vs code . This text is reproduced verbatim as required by the terms of the license. Each project’s copyright notice is included above, and the license terms below apply universally to all four components.
+
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR ıMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Detailed Explanation of MIT License Terms
+To ensure clarity and understanding, we provide an extended explanation of the MIT License terms as they pertain to the use of OpenSumi IDE Electron, OpenSumi Core, Monkey Lang, and vs code in Zontroy AI:
+
+Grant of License: The MIT License is a permissive license that grants users broad rights to use, copy, modify, merge, publish, distribute, sublicense, and sell the software. This means that Zontroy INC. is permitted to integrate these open-source components into Zontroy AI and distribute them as part of our proprietary product, provided we adhere to the license’s conditions.
+Conditions: The primary condition of the MIT License is that the copyright notice and permission notice must be included in all copies or substantial portions of the software. This Document fulfills that requirement by reproducing the notices and license text herein.
+No Warranty: The MIT License explicitly states that the software is provided "as is," without any warranties. This disclaimer applies to the open-source components as integrated into Zontroy AI. While Zontroy INC. may offer its own warranties or support for Zontroy AI as a whole, the original authors of these components bear no liability for their performance or use.
+Liability Limitation: The license shields the authors and copyright holders from liability arising from the use of the software. Users of Zontroy AI should understand that any issues related to these components are not the responsibility of the original contributors.
+This permissive nature of the MIT License aligns with Zontroy INC.’s philosophy of fostering innovation while respecting the intellectual property and contributions of others.
+
+Acknowledgments
+Zontroy INC. extends its heartfelt gratitude to the developers, contributors, and maintainers of OpenSumi IDE Electron, OpenSumi Core, Monkey Lang, and vs code. These projects represent the best of the open-source community: collaborative, innovative, and accessible. Without their efforts, Zontroy AI would not be able to deliver the advanced functionality and user experience that our customers enjoy. We encourage our users to explore these projects on GitHub, contribute to their development if possible, and support the open-source ecosystem that powers tools like Zontroy AI.
+
+OpenSumi Contributors: For their work on OpenSumi IDE Electron and OpenSumi Core, providing a solid foundation for modern IDE development.
+Michal Holasek: For creating Monkey Lang, a delightful and educational programming language that enriches Zontroy AI’s capabilities.
+How to Access the Source Code
+As required by the MIT License, the source code for OpenSumi IDE Electron, OpenSumi Core, and Monkey Lang remains available at their respective GitHub repositories:
+
+OpenSumi IDE Electron: https://github.com/opensumi/ide-electron
+OpenSumi Core: https://github.com/opensumi/core
+Monkey Lang: https://github.com/michalholasek/monkey-lang
+VS CODE: https://github.com/microsoft/vscode
+Zontroy INC. does not modify or redistribute the source code independently but integrates these components into Zontroy AI in binary or compiled form. Users interested in the original source code or contributing to these projects should visit the provided links.
+
+Contact Information
+If you have questions about this Third Party Notices Document, the use of open-source software in Zontroy AI, or any other related matters, please contact Zontroy INC. at:
+
+Zontroy INC.
+
+Email: Info@zontroy.com
+
+Website: www.zontroy.com
+
+Conclusion
+This Third Party Notices Document reflects Zontroy INC.’s commitment to ethical software development, legal compliance, and community support. By incorporating OpenSumi IDE Electron, OpenSumi Core, Monkey Lang, and vs code into Zontroy AI, we have built a powerful coding tool that stands on the shoulders of giants in the open-source world. We hope that this Document provides clarity and confidence to our users, and we look forward to continuing to innovate with the support of the open-source community.
+
+Thank you for choosing Zontroy AI. Together, we are shaping the future of coding.
+
+End of Document
